@@ -1,3 +1,13 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.back{
+    background-image: url("images/backs.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 120px;
+}
 .container{
     margin-bottom: 100px;
 }
@@ -34,12 +44,20 @@ ol.carousel-indicators li {
     height: 450px;
 }
 .see-all{
+    color: orange;
+    margin-bottom: 35px;
+    font-weight: 500;
+    font-size: large;
+}
+.see-all:hover{
     color: orangered;
+    text-decoration: none;
 }
 .card{
     border: none;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px lightgray;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 1px 1px 20px 2px rgb(238, 237, 237);
+    border-radius: 25px;
 }
 .card-text, .card-title{
     text-align: center;
@@ -50,9 +68,40 @@ ol.carousel-indicators li {
 .catagories-underline{
     background-image: linear-gradient(to left, rgb(223, 102, 4) 0%, rgb(250, 156, 34) 100%);
     height: 8px;
-    width: 130px;
+    width: 150px;
     border-top-left-radius: 15px 15px;
     border-top-right-radius: 15px 15px;
     border-bottom-left-radius: 15px 15px;
     border-bottom-right-radius: 15px 15px;
+}
+.cat-img1,.cat-img2,.cat-img3{
+    border: none;
+    box-shadow: 1px 1px 10px lightgray;
+    padding: 25px 40px 25px 40px;
+}
+.cat-img2,.cat-img3{
+    border-top-left-radius: 30px 30px;
+    border-top-right-radius: 5px 5px;
+    border-bottom-left-radius: 5px 5px;
+    border-bottom-right-radius: 30px 30px;
+}
+.cat-img1{
+    border-top-left-radius: 5px 5px;
+    border-top-right-radius: 30px 30px;
+    border-bottom-left-radius: 30px 30px;
+    border-bottom-right-radius: 5px 5px;
+}
+.cat-img1 p,.cat-img2 p,.cat-img3 p{
+    margin-top: 10px;
+    text-align: center;
+}
+.beauty{
+    margin-bottom: 40px;
+}
+footer p{
+    text-align: center;
+    font-size: small;
+}
+.submit{
+    margin-top: 5px;
 }
